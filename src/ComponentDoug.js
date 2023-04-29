@@ -65,7 +65,7 @@ export default function ComponentDoug() {
             {
                 persons.map((person, index) => {
                     return (
-                        <li style={{margin: "20px 0 0 0"}}>
+                        <li key={index} style={{margin: "20px 0 0 0"}}>
                             <ul>
                                 <li><b>Name:</b> {persons[index].name}</li>
                                 <li><b>Age:</b> {persons[index].age}</li>
