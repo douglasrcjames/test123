@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import ComponentDoug from './ComponentDoug';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-        <h1>Hi vince</h1>
+        <Header />
         <img src={logo} className="App-logo" alt="logo" />
         <ComponentDoug />
     </div>
